@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video ve Yanında Yazı</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .video-section {
+            flex: 1;
+            padding: 20px;
+        }
+        .text-section {
+            flex: 1;
+            padding: 20px;
+        }
+        video {
+            width: 100%;
+            height: auto;
+        }
+        .link {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Video Bölümü -->
+        <div class="video-section">
+            <video controls>
+                <source src="/csp_görsellerbigideavideo.mp4" type="video/mp4">
+                Tarayıcınız video oynatmayı desteklemiyor.
+            </video>
+        </div>
+
+        <!-- Yazı Bölümü -->
+        <div class="text-section">
+            <h1>Big Idea 1 Summarize Video</h1>
+            <p>In this video you can see my 2 minute summarization of Big Idea 1 which is the first part of the course I am taking from the CollegeBoard.</p>
+            <p>If you can't watch, <a href="https://github.com/ardaefeozcan/ardaefeozcan.github.io/blob/main/csp/csp_görseller/bigideavideo.mp4" class="link">click here</a></p>
+        </div>
+    </div>
+
+</body>
+</html>

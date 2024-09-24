@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <style>
+        .başlık {
+            color: #424345;
+            font-size: 42px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .image-container {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-caption {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="başlık">
+        <h1>My Swift Projects</h1>
+    </div>
+    <p class="centered" style="text-align:center; font-size:14px; margin-bottom: 30px; ">
+        <a href="index.html">home</a>
+        |  
+        <a href="cs50.html">CS50</a>
+        | 
+        <a href="csp.html">CSP</a>
+        | 
+        <a href="swift.html">Develop in Swift</a>
+        |
+        <a href="projects.html">Projects</a>
+    </p>
+    
+    <div class="gallery">
+        <!-- İlk resim grubu -->
+        <div class="image-container">
+            <a href="swift/day1_learning_swift.html">
+                <img src="swift/swift_görseller/day1.jpg" alt="LearningSwift_Day1">
+            </a>
+            <div class="image-caption"> LearningSwift_Day1 </div>
+        </div>
+
+        <!-- İkinci resim grubu -->
+        <div class="image-container">
+            <a href="swift/day2_learning_swift.html">
+                <img src="swift/swift_görseller/day1.jpg" alt="LearningSwift_Day2">
+            </a>
+            <div class="image-caption">LearningSwift_Day2</div>
+        </div>
+
+        <!-- Üçüncü resim grubu -->
+        <div class="image-container">
+            <a href="swift/day3_learning_swift.html">
+                <img src="swift/swift_görseller/day1.jpg" alt="LearningSwift_Day3">
+            </a>
+            <div class="image-caption">LearningSwift_Day3</div>
+        </div>
+
+        <!-- Dördüncü resim grubu -->
+        <div class="image-container">
+            <a href="swift/day4_learning_swift.html">
+                <img src="swift/swift_görseller/day1.jpg" alt="LearningSwift_Day4">
+            </a>
+            <div class="image-caption">LearningSwift_Day4</div>
+        </div>
+
+        <!-- Beşinci resim grubu -->
+        <div class="image-container">
+            <a href="swift/day5_learning_swift.html">
+                <img src="swift/swift_görseller/day1.jpg" alt="LearningSwift_Day5">
+            </a>
+            <div class="image-caption">LearningSwift_Day5</div>
+        </div>
+
+        <!-- Altıncı resim grubu -->
+        <div class="image-container">
+            <a href="link6.html">
+                <img src="projects/projects_görseller/resim6.jpg" alt="Resim 6">
+            </a>
+            <div class="image-caption">Resim 6 Açıklaması</div>
+        </div>
+    </div>
+</body>
+</html>
